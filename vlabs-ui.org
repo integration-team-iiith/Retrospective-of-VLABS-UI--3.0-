@@ -1,0 +1,68 @@
+#+TITLE: Responsiveness of VLABS web pages
+#+DATE:[18-05-2016]
+#+AUTHOR:Sadhana
+
+* Technical Observations of VLABS web pages
+
+** Cross Browser Platform
+
+- Tested the lab on various platforms( OS with different browsers).
+- Used an online cross browser compatibility testing tool([[https://www.browserstack.com/][browserstack]]) to check the
+  responsive of the VLABS web pages on different resolutions.  This tool also gives
+  the [[https://www.browserstack.com/screenshots?utm_campaign=onboarding&utm_medium=email&utm_source=welcome][screenshots]] of the browsers just by one click to check the responsiveness
+  of the website.
+  For Example : 
+  - Windows XP with firefox 46
+  - Windows XP with firefox 47  
+  - ubuntu 14.04 with Firefox 49 
+  - ubuntu 14.04 with Chrome 49
+  - windows7 with Internet Explorer 11 
+  - Windows7 with firefox 46 
+  - Windows7 with firefox 47 
+  - Windows7 with chrome 50
+  - Mobiles and tablets
+
+- Link to see the responsiveness of websites in [[https://www.browserstack.com/responsive?utm_campaign=onboarding&utm_medium=email&utm_source=welcome][mobiles and tablets.]]  
+
+** Issues regarding responsiveness of VLABS web pages with cross browser compatability testing using above mentioned tool
+
+*** LOGO
+
+- Logo size should be same across all the pages. Currently it is getting
+  changed on different pages.
+
+*** Footer
+
+- Footer is not responsive in all the labs. Only the landing page has
+  responsive footer. Need to change the footer as per vlabs landing page in all
+  the labs.
+
+*** Feedback footer
+
+- Footer is not responsive for the feedback link in all the pages.
+
+*** css issue 
+
+- Font size of the headers and sub headers in all the labs is different
+  compared to VLABS landing page.
+- Font size of the tabs in the feedback is different compared to landing page.
+
+*** Banner
+
+- Banner of the landing page is not responsive.(tag line should be made responsive)
+  The text(Example:Analytics) on the banner is getting overlapped in the small screen.
+
+*** Search box
+
+- Search box is not responsive after some resolution and also its not working
+  the way it should work.  So, it should be fixed or either it should be
+  commented out.
+
+Based on the mentioned points, Vlabs is not fully responsive. Other than these
+views, everything is responsive.
+
+The labs linked to the landing page with the old UI are not responsive at all.
+
+The tabs for each lab is not fixed, decision has to be made before releasing UI
+3.0 doc. All the tabs(example: Prerequites, Quiz etc) should be consistent
+across all the labs.
